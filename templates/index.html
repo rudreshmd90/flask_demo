@@ -1,0 +1,17 @@
+
+{% extends "base.html"  %}
+
+{% block content %}
+
+    <h1> this is my first web pages!!!!!</h1>
+
+    <p> hello {{user_name|reverse}}</p>
+
+    <p> my favourite foods are:{{fav_food}} </p>
+
+    {% for items in fav_food %}
+        {{items}} </br>
+    {% endfor %}
+
+
+{% endblock %}
