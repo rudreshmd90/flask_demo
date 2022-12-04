@@ -26,7 +26,7 @@ def index():
 
  
 
-#localhost:5000/user/RUDRESH
+#localhost:5000/user/RUDRESH passing arguments
 
 @app.route('/user/<name>')
 
